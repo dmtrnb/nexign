@@ -7,6 +7,8 @@ import lombok.Setter;
 @Setter
 public class ResultDto {
 
-    private ParticipantDto winner;
-    private int sum;
+    private String name;
+    private String city;
+    private int age;
+    private long sum;
 }

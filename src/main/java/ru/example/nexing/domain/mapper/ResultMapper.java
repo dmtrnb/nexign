@@ -4,6 +4,6 @@ import org.mapstruct.Mapper;
 import ru.example.nexing.domain.dto.ResultDto;
 import ru.example.nexing.domain.entity.Result;
 
-@Mapper
+@Mapper(uses = {ParticipantMapper.class})
 public interface ResultMapper extends SuperMapper<Result, ResultDto> {
 }
